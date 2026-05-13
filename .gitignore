@@ -1,0 +1,60 @@
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+.venv-1/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+.eggs/
+pip-log.txt
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+nosetests.xml
+coverage.xml
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# IDE / editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Environment variables
+.env
+*.env
+
+# ML / CV model artifacts
+*.h5
+*.pkl
+*.pth
+*.pt
+*.onnx
+*.pb
+*.tflite
+
+# Logs
+*.log
+logs/
